@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\AboutUsController;
+use App\Http\Controllers\ContactUsController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\NavbarController;
 use App\Http\Controllers\NewsController;
@@ -30,7 +32,10 @@ Route::prefix('/program')->group(function() {
     Route::get('/', [ProgramController::class, 'index']);
 });
 
-Route::get('/aboutus', []);
+Route::get('/aboutus', [AboutUsController::class, 'index']);
+
+Route::get('/contactus', [ContactUsController::class, 'index']);
+
 // Auth::routes();
 
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

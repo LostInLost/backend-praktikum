@@ -4,7 +4,7 @@
 
 @section('content')
 
-<div class="container">
-    <h1>Ini Halaman Home</h1>
-</div>
+    <div class="container">
+        <h1>Ini Halaman Home</h1>
+    </div>
 @endsection

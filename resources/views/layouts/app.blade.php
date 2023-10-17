@@ -59,11 +59,11 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{ $title == 'Home' ? 'active' : 'null' }}" href="/aboutus">About Us</a>
+                            <a class="nav-link {{ $title == 'About Us' ? 'active' : 'null' }}" href="/aboutus">About Us</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{ $title == 'Home' ? 'active' : 'null' }}" href="/contactus">Contact Us</a>
+                            <a class="nav-link {{ $title == 'Contact Us' ? 'active' : 'null' }}" href="/contactus">Contact Us</a>
                         </li>
                     </ul>
                 </div>
